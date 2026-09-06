@@ -46,6 +46,7 @@ Branches are created from `main` and merged back through pull requests.
 |---|---|
 | `feature/initial-structure` | HTML skeleton for both pages and the base stylesheet |
 | `feature/add-styling` | Design tokens, header and footer styling, responsive layout |
+| `feature/add-content` | Real copy for the home and about pages, plus script.js |
 
 ## License
 
