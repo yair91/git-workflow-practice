@@ -1,5 +1,15 @@
-/* Base reset and layout container.
-   Visual theming is added in the feature/add-styling branch. */
+/* Design tokens */
+
+:root {
+  --bg: #fdfcfa;
+  --surface: #ffffff;
+  --text: #1f2933;
+  --muted: #66757f;
+  --accent: #2f6f4e;
+  --border: #e3e1dc;
+  --radius: 10px;
+  --space: 1rem;
+}
 
 * {
   margin: 0;
@@ -10,6 +20,19 @@
 body {
   font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
   line-height: 1.6;
+  color: var(--text);
+  background-color: var(--bg);
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.25;
+  font-weight: 650;
+}
+
+a {
+  color: var(--accent);
 }
 
 .container {
