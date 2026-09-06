@@ -152,3 +152,44 @@ main section {
     padding-block: 2rem;
   }
 }
+
+/* Roles and work entries */
+
+.subtitle {
+  color: var(--muted);
+  font-weight: 600;
+  margin-top: 0.35rem;
+}
+
+.role {
+  padding-block: 1.25rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.role:last-child {
+  border-bottom: none;
+}
+
+.role h3 {
+  font-size: 1.05rem;
+}
+
+.role-meta,
+.card-meta {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.role p:last-child {
+  margin-top: 0.5rem;
+}
+
+.card-meta {
+  margin-bottom: 0.5rem;
+}
+
+.stack {
+  margin-top: 0.75rem;
+  font-size: 0.85rem;
+  color: var(--accent);
+}
