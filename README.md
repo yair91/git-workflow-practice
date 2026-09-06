@@ -38,7 +38,13 @@ Then open <http://localhost:8000>.
 
 ## Git Workflow
 
-Documented in detail once the feature branches are merged.
+Branches are created from `main` and merged back through pull requests.
+
+### Branches
+
+| Branch | Purpose |
+|---|---|
+| `feature/initial-structure` | HTML skeleton for both pages and the base stylesheet |
 
 ## License
 
