@@ -88,3 +88,67 @@ a {
   color: var(--muted);
   font-size: 0.9rem;
 }
+
+/* Sections and cards */
+
+main section {
+  padding-block: 2.5rem;
+}
+
+#hero h1 {
+  font-size: clamp(1.8rem, 5vw, 2.6rem);
+}
+
+#hero p {
+  color: var(--muted);
+  max-width: 60ch;
+  margin-top: 0.75rem;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: var(--space);
+  margin-top: 1.5rem;
+}
+
+.card {
+  background-color: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.25rem;
+}
+
+.card h3 {
+  margin-bottom: 0.5rem;
+}
+
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  list-style: none;
+  margin-top: 1.5rem;
+}
+
+.tag-list li {
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 0.25rem 0.85rem;
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+/* Small screens */
+
+@media (max-width: 540px) {
+  .site-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.75rem;
+  }
+
+  main section {
+    padding-block: 2rem;
+  }
+}
